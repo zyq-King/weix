@@ -1,0 +1,19 @@
+<template name="shujuItem">
+  <view class="movie-info" wx:for="{{barnnerData}}" wx:key="index">
+<view bindtap="gotoComment">
+  <view class="jieshao">{{item.introduce}}</view>
+  <image class="movie-img" src="{{item.imageUrl}}"></image>
+<view class="xiaozi">
+    <view class="movie-title">{{item.title}}</view>
+    <view>单价：
+    <text class="movie-score">￥{{item.price}}元</text></view>
+    <view>作者--{{item.author}}
+      
+    </view>
+    <view>发布时间--  {{item.time}}</view>
+   
+  </view>
+</view>
+    <button class="movie-commet">购买</button>
+  </view>
+</template>

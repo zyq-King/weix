@@ -1,0 +1,46 @@
+{
+  "pages": [
+    
+    "pages/shop/shop",
+    "pages/xiangq/xiangq",
+    "pages/index/index",
+    "pages/admin/admin",
+    "pages/logs/logs",
+    "pages/me/me",
+    "pages/tamplate/tamplate",
+    "static/detal-data",
+    "pages/gouwu/gouwu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电子书商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1678fe",
+    "list": [
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "image/shuji_1.png",
+        "selectedIconPath": "image/shuji.png"
+      },
+      {
+        "pagePath": "pages/gouwu/gouwu",
+        "text": "购物车",
+        "iconPath": "image/gouwuche.png",
+        "selectedIconPath": "image/gouwuche_1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "image/wo_1.png",
+        "selectedIconPath": "image/wo.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

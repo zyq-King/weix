@@ -1,0 +1,13 @@
+<!-- <image class="movie-img" src="{{item.images.small}}"></image> -->
+  <!-- <view class="movie-info">
+    <view class="movie-title">《西游记》</view>
+    <view>单价：
+    <text class="movie-score">￥100元</text></view>
+    <view>作者：吴承恩
+      <!-- <text wx:for="{{item.casts}}" wx:key="index">  </text> -->
+    <!-- </view>
+    <view>发布时间：明代</view>
+    <button class="movie-commet" size="mini">购买</button>
+  </view> --> -->
+
+  

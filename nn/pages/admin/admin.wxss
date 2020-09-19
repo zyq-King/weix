@@ -1,0 +1,33 @@
+.movie{
+  width:100%;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.movie-img{
+  width: 200rpx;
+  height: 250rpx;
+  /* margin-right: 20rpx; */
+}
+.movie-info{
+  /* width: 300rpx; */
+  flex: 1px;
+  font-size: 30rpx;
+}
+.movie-title{
+  color: #666;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.movie-score{
+  color: #faaf00;
+}
+.movie-commet{
+  /* height: 60rpx;
+  width: 200rpx; */
+  background: #1678ff;
+  color: white;
+  /* font-size: 26rpx;
+  margin-top: 25rpx; */
+}

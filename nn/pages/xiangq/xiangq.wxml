@@ -1,0 +1,32 @@
+<!-- <swiper indicator-dots="true" autoplay="false" indicator-active-color="#FFFfff ">
+  <swiper-item wx:for="{{barnnerData}}" wx:key="index">
+    <image src="{{item.bannerimg}}"></image>
+  </swiper-item>
+</swiper> -->
+
+<view class="detail-contal">
+  <view class="detail-image" style="background:url('{{barnnerData.bannerimg}}'); background-size:100% auto; background-color:red" >
+    <view class="book-share">
+      <image src="../../image/share.png"></image>
+      <button open-type="share">share</button>
+    </view>
+  </view>
+
+  <view class="movie-info" >
+    <view bindtap="gotoComment">
+  
+  <!-- <image class="movie-img" src="{{item.imageUrl}}"></image> -->
+      <view class="xiaozi">
+        <view class="movie-title">{{barnnerData.title}}</view>
+        <view>单价：<text class="movie-score">￥{{barnnerData.price}}元</text></view>
+        <view>作者--{{barnnerData.author}}<text wx:for="{{item.casts}}" wx:key="index">  </text>
+      </view>
+      <view>发布时间--  {{barnnerData.time}}</view>
+    </view>
+</view>
+    <view class="jieshao">{{barnnerData.introduce}}</view>
+  </view>
+</view>
+ <view class="ok">
+  <button class="movie-commet">购买</button>
+</view>

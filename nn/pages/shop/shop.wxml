@@ -1,0 +1,45 @@
+
+
+<!-- <import src="../../pages/tamplate/tamplate.wxml"/>
+<block  wx:for="{{barnnerData}}" wx:key="index">
+  <template is="shujuItem" data="{{item}}"/>
+</block> -->
+
+
+
+<view class="movie-info" wx:for="{{barnnerData}}" wx:key="index">
+<view bindtap="gotoComment" data-index="{{index}}">
+  <view class="jieshao">{{item.introduce}}</view>
+  <image class="movie-img" src="{{item.imageUrl}}"></image>
+  
+<view class="xiaozi">
+    <view class="movie-title">{{item.title}}</view>
+    <view>单价：
+    <text class="movie-score">￥{{item.price}}元</text></view>
+    <view>作者--{{item.author}}
+      <text wx:for="{{item.casts}}" wx:key="index">  </text>
+    </view>
+    <view>发布时间--  {{item.time}}</view>
+   
+  </view>
+</view>
+    <button class="movie-commet">购买</button>
+  </view>
+  
+  
+  <!-- <view class="movie-info" >
+    <view bindtap="gotoComment">
+    <image class="movie-img" src="../../image/shui.jpg"></image>
+    <view class="movie-title">《水浒传》{{item.title}}</view>
+    <view class="xiaozi">
+    <view>单价：
+    <text class="movie-score">￥100.00元{{item.rating.average}}</text></view>
+    <view>
+      作者：施耐庵<text wx:for="{{item.casts}}" wx:key="index"> {{item.name}} </text>
+    </view>
+    <view>发布时间：明代{{item.year}}</view>
+    <view class="jieshao">介绍：《西游记》是中国古bai代第一部浪du漫主义章回体长篇神魔小说。现存明刊百回本《西游记》均无作者署名。</view>
+</view>
+</view>
+  <button  data-movieid="{{item.id}}" class="movie-commet">购买</button>
+</view> -->
